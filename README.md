@@ -14,7 +14,7 @@
 
 ●使用言語・技術　
 
-php、HTML、javascript、css、ajax、Bootstrap
+php、HTML、javascript、css、ajax、Bootstrap、Google Maps API
 
 ●研究成果
 
