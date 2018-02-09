@@ -1,0 +1,43 @@
+@charset "UTF-8";
+label{
+    display: block;
+}
+.card{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+    width: 80%;
+    min-height: 3em;
+    margin: 10px auto;
+    display: block;
+}
+.txt-minisize{
+    font-size: 14px;
+    margin-top: -10px;
+}
+.card-field{
+    padding-top: 1%;
+}
+.custom-control-input:checked + .custom-control-indicator.color-boy{
+    background-color: #0A62FF;
+}
+.custom-control-input:checked + .custom-control-indicator.color-girl{
+    background-color: #FC008B;
+}
+.custom-control-input:focus ~ .custom-control-indicator.color-boy{
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #0A62FF;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #0A62FF;
+}
+.custom-control-input:focus ~ .custom-control-indicator.color-girl{
+    -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 3px #FC008B;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #FC008B;
+}
+@media (max-width: 599px) {
+    .card{
+        width: 90%;
+        margin-top: 5%;
+    }
+}

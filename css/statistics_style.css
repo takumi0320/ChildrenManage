@@ -1,0 +1,79 @@
+@charset "UTF-8";
+.card-field{
+    width: 60%;
+    margin: 30px auto;
+}
+.date-title{
+    padding-top: 30px;
+}
+.btn-prev-month{
+    position: absolute;
+    top: 73px;
+    left: 32%;
+}
+.btn-next-month{
+    position: absolute;
+    top: 73px;
+    right: 32%;
+}
+.date-data{
+    text-align: center;
+}
+.calendar-disp{
+    width: 60%;
+    margin: 30px auto;
+}
+.calendar-disp .btn-warning{
+    width: 100%;
+    height: 50px;
+    margin: 5px auto;
+}
+.button-grp{
+    width: 30%;
+    margin: 0 auto;
+}
+.button-grp .btn-back{
+    width: 100%;
+    height: 50px;
+}
+
+
+@media (max-width: 599px) {
+    .card-field{
+        width: 95%;
+    }
+    .date-title{
+        padding-top: 20px;
+    }
+    .btn-prev-month{
+        top: 65px;
+        left: 5%;
+    }
+    .btn-next-month{
+        top: 65px;
+        right: 5%;
+    }
+    .date-data{
+
+    }
+    .calendar-disp{
+        width: 94%;
+    }
+    .button-grp{
+        width: 50%;
+    }
+}
+@media (min-width: 600px) and (max-width: 1039px) {
+    .btn-prev-month{
+        left: 25%;
+    }
+    .btn-next-month{
+        right: 25%;
+    }
+    .calendar-disp{
+        width: 83%;
+    }
+    .button-grp{
+        width: 40%;
+    }
+}
